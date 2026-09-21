@@ -30,6 +30,7 @@ Circuito terminado :)
 ![Diagrama del sistema](recursos/imgs/agosto4.2.jpeg)
 ![Diagrama del sistema](recursos/imgs/agosto4.3.jpeg)
 
+```
 #include "BluetoothSerial.h"
 /voidsetup（）｛
 / put your setup code here, to run once:
@@ -40,6 +41,7 @@ if(digitalRead(25)-==1)(
 Serial. printIn ("PRESIONADO");
 }else{("NO");
 delay(100);
+```
 
 
 ---
@@ -118,7 +120,7 @@ void loop()
 
 ---
 **18 de sept:** 
-1. Bevel: Cambio de eje (de horizontal a vertical a $90^\circ$) y velocidad a par.
+1. Bevel: Cambio de eje (de horizontal a vertical 90°) y velocidad a par.
 
 Uso: Transmitir potencia entre ejes que se cortan.
 
